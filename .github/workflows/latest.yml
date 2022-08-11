@@ -18,7 +18,7 @@ jobs:
       uses: ./
       id: setup
       with:
-        cmake-version: 'latest'
+        cmake-version: '3.23.3'
 
     - name: Run cmake --version
       shell: bash
